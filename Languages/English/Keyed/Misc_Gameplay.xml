@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<PUF.UpgradePsycast>Upgrade psycast</PUF.UpgradePsycast>
+	<PUF.UpgradePsycastDesc>Upgrade a colonist's psycast.</PUF.UpgradePsycastDesc>
+	<PUF.NoStoredPawn>No stored pawn</PUF.NoStoredPawn>
+	<PUF.NoAbilitiesToUpgrade>{PAWN_nameDef} has no upgradeable psycasts.</PUF.NoAbilitiesToUpgrade>
+	<PUF.UpgradeFromTo>Upgrade {0} to {1}</PUF.UpgradeFromTo>
+	<PUF.CancelUpgrade>Cancel upgrade</PUF.CancelUpgrade>
+	<PUF.CancelUpgradeDesc>Immediately aborts the upgrade of a psycast. Aborting a psycast upgrade may cause infliction of Psionic Shock and loss of some invested psytrainers.</PUF.CancelUpgradeDesc>
+	<PUF.UpgradeProgress>Upgrade progress: {0}%</PUF.UpgradeProgress>
+	<PUF.HasUpgradedAbility>has upgraded ability</PUF.HasUpgradedAbility>
+</LanguageData>

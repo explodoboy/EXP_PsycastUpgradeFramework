@@ -1,0 +1,8 @@
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\bin\Debug\PsycastUpgradeFramework.dll
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\bin\Debug\PsycastUpgradeFramework.pdb
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\bin\Debug\0Harmony.dll
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\obj\Debug\PsycastUpgradeFramework.csproj.AssemblyReference.cache
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\obj\Debug\PsycastUpgradeFramework.csproj.CoreCompileInputs.cache
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\obj\Debug\PsycastUpgradeFramework.csproj.CopyComplete
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Source\PsycastUpgradeFramework\obj\Debug\PsycastUpgradeFramework.dll
+c:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Psycast Upgrade Framework\1.3\Assemblies\PsycastUpgradeFramework.dll
