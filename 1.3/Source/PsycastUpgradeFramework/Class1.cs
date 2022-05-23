@@ -3,9 +3,11 @@ using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Networking;
 using Verse;
 
 namespace PsycastUpgradeFramework
@@ -74,6 +76,36 @@ namespace PsycastUpgradeFramework
                 }
             }
             return false;
+        }
+    }
+
+    [HarmonyPatch]
+    public static class AbilityDefFilter
+    { 
+        [HarmonyTargetMethod]
+        public static MethodBase GetMethod()
+        {
+            foreach (var type in typeof(Hediff_Psylink).GetNestedTypes(AccessTools.all))
+            {
+                foreach (var method in type.GetMethods(AccessTools.all))
+                {
+                    if (method.Name.Contains("<TryGiveAbilityOfLevel>") && method.ReturnType == typeof(bool) 
+                        && method.GetParameters()[0].ParameterType == typeof(AbilityDef))
+                    {
+                        return method;
+                    }
+                }
+            }
+            throw new Exception("Didn't find Hediff_Psylink.<>c__DisplayClass5_0.<TryGiveAbilityOfLevel>b__1(AbilityDef a)");
+        }
+
+        public static void Postfix(AbilityDef a, ref bool __result)
+        {
+            var psycastExtension = a.GetModExtension<PsycastExtension>();
+            if (psycastExtension != null && psycastExtension.upgradeOnly)
+            {
+                __result = false;
+            }
         }
     }
 

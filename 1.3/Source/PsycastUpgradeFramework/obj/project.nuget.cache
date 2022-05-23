@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "L+wJpZ+lHV3C+4KtIXNknE0uwVzTufHtIewVjUak8bwvnAUd1Na2jTMH3VzXO4wqssYowlCnzqz8e+EbAEaJVA==",
+  "dgSpecHash": "PjOM8KJW2P/fJjDAYnHvL5ZAH8Bbsks+DsCPS2BXHYvw7fCxqtOZJHY7qC0Xrm7bta1RUTJ8vpBHZAbS7olhMA==",
   "success": true,
-  "projectFilePath": "c:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\Psycast Upgrade Framework\\1.3\\Source\\PsycastUpgradeFramework\\PsycastUpgradeFramework.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\EXP_PsycastUpgradeFramework\\1.3\\Source\\PsycastUpgradeFramework\\PsycastUpgradeFramework.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3159\\krafs.rimworld.ref.1.3.3159.nupkg.sha512",
-    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.1.1\\lib.harmony.2.1.1.nupkg.sha512"
+    "C:\\Users\\Vova\\.nuget\\packages\\krafs.rimworld.ref\\1.3.3326\\krafs.rimworld.ref.1.3.3326.nupkg.sha512",
+    "C:\\Users\\Vova\\.nuget\\packages\\lib.harmony\\2.2.1\\lib.harmony.2.2.1.nupkg.sha512"
   ],
   "logs": []
 }
